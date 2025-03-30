@@ -45,22 +45,24 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="space-y-4">
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-400 hover:text-white">
                   <Facebook className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-400 hover:text-white">
                   <Instagram className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-400 hover:text-white">
                   <Twitter className="h-6 w-6" />
                 </a>
               </div>
               <div className="text-gray-400">
                 <p className="mb-2">Contact Us:</p>
                 <p>Email: info@shankersjewellers.com</p>
-                <p>Phone: +1 (555) 123-4567</p>
-                <p>Address: 123 Jewelry Lane</p>
-                <p>New York, NY 10001</p>
+                <p>Phone: 92554-00037</p>
+                <p>Phone: 95182-00642</p>
+                <p>Phone: 87080-12135</p>
+                <p>Address:  Gali Jain School Wali,Bhadra Bazar </p>
+                <p>Bhadra Bazar,Sirsa</p>
               </div>
             </div>
           </div>

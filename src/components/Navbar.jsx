@@ -18,7 +18,22 @@ function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex items-center">
+          {/* Mobile menu button */}
+          <div className="flex items-center sm:hidden">
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900"
+            >
+              {isMobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
+
+          {/* Logo - centered on mobile, left-aligned on desktop */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 sm:relative sm:left-0 sm:transform-none flex items-center">
             <Logo />
           </div>
 
@@ -52,24 +67,17 @@ function Navbar() {
 
             <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
             <Link to="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
-          </div>
-
-          <div className="flex items-center">
-            <button className="hidden sm:flex items-center text-gray-700 hover:text-gray-900">
+            
+            <button className="flex items-center text-gray-700 hover:text-gray-900">
               <User className="h-6 w-6" />
               <span className="ml-2">Login</span>
             </button>
+          </div>
 
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="sm:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900"
-            >
-              {isMobileMenuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
+          {/* Mobile User Icon */}
+          <div className="flex items-center sm:hidden">
+            <button className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900">
+              <User className="h-6 w-6" />
             </button>
           </div>
         </div>
@@ -108,12 +116,6 @@ function Navbar() {
             >
               Contact
             </Link>
-            <div className="px-3 py-2">
-              <button className="flex items-center text-gray-700">
-                <User className="h-6 w-6" />
-                <span className="ml-2">Login</span>
-              </button>
-            </div>
           </div>
         </div>
       </div>

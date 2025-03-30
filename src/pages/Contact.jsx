@@ -15,22 +15,24 @@ function Contact() {
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
           <Phone className="h-8 w-8 mx-auto mb-4 text-gray-800" />
           <h3 className="text-xl font-medium mb-2">Phone</h3>
-          <p className="text-gray-600">+1 (555) 123-4567</p>
+          <p className="text-gray-600">92554-00037 </p>
+          <p className="text-gray-600">95182-00642 </p>
+          <p className="text-gray-600">87080-12135 </p>
           <p className="text-gray-600">Mon-Fri: 9am - 6pm</p>
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
           <Mail className="h-8 w-8 mx-auto mb-4 text-gray-800" />
           <h3 className="text-xl font-medium mb-2">Email</h3>
-          <p className="text-gray-600">contact@lumiere.com</p>
-          <p className="text-gray-600">support@lumiere.com</p>
+          <p className="text-gray-600">shankers@gmail.com</p>
+          <p className="text-gray-600">shankers@gmail.com</p>
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
           <MapPin className="h-8 w-8 mx-auto mb-4 text-gray-800" />
           <h3 className="text-xl font-medium mb-2">Visit Us</h3>
-          <p className="text-gray-600">123 Jewelry Lane</p>
-          <p className="text-gray-600">New York, NY 10001</p>
+          <p className="text-gray-600">Gali Jain School Wali</p>
+          <p className="text-gray-600">Bhadra Bazar ,Sirsa</p>
         </div>
       </div>
 
@@ -90,13 +92,13 @@ function Contact() {
       <div className="mt-12 text-center">
         <h2 className="text-2xl font-serif mb-6">Follow Us</h2>
         <div className="flex justify-center space-x-6">
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-600 hover:text-gray-900">
             <Facebook className="h-8 w-8" />
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-600 hover:text-gray-900">
             <Instagram className="h-8 w-8" />
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="https://www.instagram.com/shankerjewellers._sirsa?igsh=MWFmbnZwbWFhcXNzbg%3D%3D&utm_source=qr" className="text-gray-600 hover:text-gray-900">
             <Twitter className="h-8 w-8" />
           </a>
         </div>
